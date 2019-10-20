@@ -9,7 +9,25 @@ See other _**Who am I?**_ options
 
 ## Docker
 
-Download the Docker Image on [Dockerhub](https://hub.docker.com/r/marcopollivier/whoami) 
+### Build Docker image
+
+```bash
+$ docker build -t marcopollivier/whoami:go-latest .
+```
+
+or [Download the Docker Image](https://hub.docker.com/r/marcopollivier/whoami)
+
+### Push Docker Image
+
+```bash
+$ docker push marcopollivier/whoami:go-latest
+```
+
+### Run Docker container
+
+```bash
+$ docker run --name whoami_go -d -p 8081:8081 marcopollivier/whoami:go-latest
+```
 
 ## API REST
 
