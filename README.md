@@ -22,7 +22,6 @@ Download the Docker Image on [Dockerhub](https://hub.docker.com/r/marcopollivier
 ```json
 {
   "me": "RJ-MB2680.lan",
-  "timestamp": "2019-02-12T10:00:00.000Z",
-  "duration": 
+  "timestamp": "2019-02-12T10:00:00.000Z"
 }
 ```
