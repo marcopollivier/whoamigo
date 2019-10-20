@@ -16,8 +16,7 @@ Download the Docker Image on [Dockerhub](https://hub.docker.com/r/marcopollivier
 ### Response
 
 - **me**: hostname (container ID for example)
-- **timestamp**: execution start time
-- **duration**: execution duration in microseconds 
+- **timestamp**: execution start time 
 
 ```json
 {
