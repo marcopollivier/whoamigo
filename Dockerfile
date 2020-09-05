@@ -1,4 +1,4 @@
-FROM golang:1.12.11-alpine3.9 AS builder
+FROM golang:1.15.1-alpine3.12 AS builder
 LABEL maintainer="Marco Ollivier <marcopollivier@gmail.com>"
 WORKDIR /go/src/github.com/marcopollivier/app/
 COPY go.mod ./
