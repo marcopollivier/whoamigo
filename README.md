@@ -7,6 +7,19 @@ See other _**Who am I?**_ options
 - [Who am I, Java?](https://github.com/marcopollivier/whoamijava)
 - [Who am I, Clojure?](https://github.com/marcopollivier/whoamiclojure)
 
+## Run locally 
+
+### Execute the server 
+```bash 
+$ go run cmd/server/main.go
+```
+
+### Execute the CURL command 
+
+```bash 
+$ curl http://localhost:8081 | json_pp
+```
+
 ## Docker
 
 ### Build Docker image
